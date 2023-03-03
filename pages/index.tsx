@@ -27,7 +27,7 @@ export default function Home() {
         <TextField
           label="Film to watch"
           variant="outlined"
-          sx={{ marginRight: "2rem" }}
+          sx={{ marginRight: "2rem", backgroundColor: "white" }}
           value={currentFilm}
           onChange={(e) => setCurrentFilm(e.target.value)}
         />
@@ -98,6 +98,7 @@ export default function Home() {
           alignItems: "center",
           padding: "2rem",
           minHeight: "100vh",
+          // backgroundColor: "white",
         }}
       >
         <Box display="flex">
